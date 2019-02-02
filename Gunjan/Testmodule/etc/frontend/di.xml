@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="testmodule_model_product" type="Gunjan\Testmodule\Plugin\Product"/>
+    </type>
+    <type name="Magento\Catalog\Pricing\Render\FinalPriceBox">
+        <plugin name="testmodule_pricing_render_finalpricebox" type="Gunjan\Testmodule\Plugin\FinalPriceBox"/>
+    </type>
+    <type name="Magento\Wishlist\Block\Customer\Wishlist\Button">
+        <plugin name="testmodule_customer_wishlist_button" type="Gunjan\Testmodule\Plugin\Wishlistaddtocart"/>
+    </type>
+</config>

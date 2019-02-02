@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <general>
+            <ecomm>
+                <features>addtocart,price</features>
+            </ecomm>
+        </general>
+        <ecomm>
+            <features>
+                <addtocart>
+                    <label>Add to cart</label>
+                </addtocart>
+                <price>
+                    <label>Price</label>
+                </price>
+                <nota>
+                    <label>None of the above</label>
+                </nota>
+            </features>
+        </ecomm>
+    </default>
+</config>
