@@ -6,7 +6,7 @@
                 <label>e-comm features</label>
                 <field id="features" translate="label" type="multiselect" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Forms</label>
-                    <source_model>Gunjan\Testmodule\Model\Config\Source\FeatureList</source_model>
+                    <source_model>Gunjan\Testmodule\Model\Config\Source\Featurelist</source_model>
                     <comment>For multiple selection hold Ctrl/cmd + click.</comment>
                 </field>
             </group>
